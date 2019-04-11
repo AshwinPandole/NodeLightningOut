@@ -3,9 +3,9 @@ var express = require('express');
 var port = process.env.PORT || 3000;
 
 var org = nforce.createConnection({
-  clientId: '3MVG9uudbyLbNPZMk0vYn7ICarLW4qV5bLdL.KqYws.i1.oN99y14Skth6utXg0nwCuPpSMtr9lB7HIOx6M65',
-  clientSecret: '6326007125179395206',
-  redirectUri: 'https://protected-fortress-46904.herokuapp.com/oauth/_callback',
+  clientId: '3MVG9d8..z.hDcPKEIIk1JDnJQtHNFKlJ5qeDXW0bUkhv1QI6t5lAKmorlUyAlM8OH_MX2duI8Shh6E1Yuo4n',
+  clientSecret: 'FD3BB31D93D9B64E3CF44432764851AB8030164E85503AF748E141EC8ADA630A',
+  redirectUri: 'https://playful-raccoon-102836-dev-ed.lightning.force.com/lightning/setup/SetupOneHome/home',
   apiVersion: 'v34.0',  // optional, defaults to current salesforce API version
   environment: 'production',  // optional, salesforce 'sandbox' or 'production', production default
   mode: 'multi' // optional, 'single' or 'multi' user mode, multi default
