@@ -5,7 +5,7 @@ var port = process.env.PORT || 3000;
 var org = nforce.createConnection({
   clientId: '3MVG9d8..z.hDcPKEIIk1JDnJQtHNFKlJ5qeDXW0bUkhv1QI6t5lAKmorlUyAlM8OH_MX2duI8Shh6E1Yuo4n',
   clientSecret: 'FD3BB31D93D9B64E3CF44432764851AB8030164E85503AF748E141EC8ADA630A',
-  redirectUri: 'mylightningout.heroku.com',
+  redirectUri: 'https://mylightningout.heroku.com',
   apiVersion: 'v34.0',  // optional, defaults to current salesforce API version
   environment: 'production',  // optional, salesforce 'sandbox' or 'production', production default
   mode: 'multi' // optional, 'single' or 'multi' user mode, multi default
